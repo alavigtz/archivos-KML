@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Linea A</name>
+    <Style id="icon-station-normal">
+      <IconStyle>
+        <color>ffa02c76</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-station-highlight">
+      <IconStyle>
+        <color>ffa02c76</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-station">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-station-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-station-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-15144-nodesc-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>15.144</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFD600-15144-nodesc-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>22.716</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFD600-15144-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-15144-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-15144-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>EJE CENTRAL</name>
+      <styleUrl>#line-FFD600-15144-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.143167,19.422513,0
+          -99.143345,19.420792,0
+          -99.143575,19.418571,0
+          -99.143825,19.416136,0
+          -99.144029,19.414101,0
+          -99.144327,19.411197,0
+          -99.144673,19.407732,0
+          -99.145098,19.403542,0
+          -99.145459,19.400871,0
+          -99.145807,19.397772,0
+          -99.146084,19.395656,0
+          -99.146231,19.394518,0
+          -99.146458,19.392707,0
+          -99.146635,19.391418,0
+          -99.146699,19.390861,0
+          -99.147004,19.388566,0
+          -99.147329,19.385799,0
+          -99.147518,19.384191,0
+          -99.147582,19.383499,0
+          -99.14781,19.38153,0
+          -99.148545,19.377826,0
+          -99.14889,19.376051,0
+          -99.149205,19.37451,0
+          -99.149666,19.372022,0
+          -99.150091,19.36958,0
+          -99.150451,19.367494,0
+          -99.150887,19.365028,0
+          -99.151317,19.362467,0
+          -99.151577,19.360976,0
+          -99.151849,19.359392,0
+          -99.151897,19.359207,0
+          -99.151993,19.359075,0
+          -99.153159,19.35801,0
+          -99.153227,19.357747,0
+          -99.153161,19.357463,0
+          -99.152954,19.3567,0
+          -99.152451,19.354932,0
+          -99.151993,19.353327,0
+          -99.151938,19.353142,0
+          -99.151522,19.351704,0
+          -99.150621,19.348485,0
+          -99.15004,19.346497,0
+          -99.149591,19.344876,0
+          -99.149407,19.34417,0
+          -99.149269,19.343738,0
+          -99.148845,19.342645,0
+          -99.148596,19.342459,0
+          -99.146129,19.342184,0
+          -99.143796,19.341881,0
+          -99.141763,19.341617,0
+          -99.140956,19.341474,0
+          -99.139463,19.341312,0
+          -99.139355,19.34116,0
+          -99.139199,19.341095,0
+          -99.13902,19.341162,0
+          -99.138955,19.341292,0
+          -99.13902,19.341463,0
+          -99.139664,19.34153,0
+          -99.140813,19.341684,0
+          -99.141166,19.341748,0
+          -99.142205,19.34185,0
+          -99.142522,19.341946,0
+          -99.142927,19.3424,0
+          -99.143261,19.342688,0
+          -99.143708,19.342804,0
+          -99.144126,19.342772,0
+          -99.144424,19.342639,0
+          -99.144943,19.342321,0
+          -99.145265,19.342274,0
+          -99.145465,19.342305,0
+          -99.146172,19.342388,0
+          -99.147427,19.342592,0
+          -99.148766,19.342738,0
+          -99.148877,19.343102,0
+          -99.149245,19.344432,0
+          -99.149792,19.346409,0
+          -99.150323,19.348267,0
+          -99.151331,19.351786,0
+          -99.152216,19.354936,0
+          -99.152291,19.355198,0
+          -99.152867,19.35738,0
+          -99.15298,19.357823,0
+          -99.152908,19.35801,0
+          -99.152713,19.358234,0
+          -99.151867,19.358975,0
+          -99.151714,19.359206,0
+          -99.151663,19.359553,0
+          -99.151373,19.361285,0
+          -99.15115,19.362543,0
+          -99.151083,19.362989,0
+          -99.150834,19.364357,0
+          -99.150622,19.365648,0
+          -99.149704,19.37094,0
+          -99.148773,19.375901,0
+          -99.148339,19.378104,0
+          -99.147637,19.381679,0
+          -99.147235,19.385325,0
+          -99.147138,19.38616,0
+          -99.146327,19.392569,0
+          -99.145218,19.401141,0
+          -99.144647,19.406401,0
+          -99.143714,19.415668,0
+          -99.143064,19.422073,0
+          -99.143014,19.422504,0
+          -99.142933,19.422921,0
+          -99.142703,19.423811,0
+          -99.142524,19.424539,0
+          -99.141956,19.42674,0
+          -99.14174,19.427902,0
+          -99.141605,19.428827,0
+          -99.141326,19.430865,0
+          -99.141084,19.432602,0
+          -99.140822,19.434118,0
+          -99.140564,19.435684,0
+          -99.140396,19.436907,0
+          -99.140126,19.438535,0
+          -99.13991,19.439897,0
+          -99.139783,19.440724,0
+          -99.139804,19.441033,0
+          -99.139457,19.443269,0
+          -99.139141,19.44488,0
+          -99.138519,19.448718,0
+          -99.138346,19.449818,0
+          -99.138306,19.450133,0
+          -99.138295,19.45275,0
+          -99.138277,19.453757,0
+          -99.138277,19.454679,0
+          -99.138103,19.455514,0
+          -99.137835,19.456491,0
+          -99.137792,19.456803,0
+          -99.137706,19.458259,0
+          -99.137631,19.460076,0
+          -99.137488,19.463325,0
+          -99.137414,19.464875,0
+          -99.137314,19.466255,0
+          -99.137316,19.466684,0
+          -99.137223,19.466995,0
+          -99.13704,19.467295,0
+          -99.136089,19.468421,0
+          -99.135883,19.468965,0
+          -99.135979,19.469484,0
+          -99.136792,19.470666,0
+          -99.136923,19.470875,0
+          -99.137189,19.471492,0
+          -99.137417,19.471816,0
+          -99.137579,19.472149,0
+          -99.137563,19.472415,0
+          -99.137957,19.473267,0
+          -99.138357,19.474312,0
+          -99.138786,19.47541,0
+          -99.139456,19.477073,0
+          -99.139863,19.478135,0
+          -99.140831,19.480596,0
+          -99.141902,19.483266,0
+          -99.143018,19.486093,0
+          -99.143318,19.486945,0
+          -99.14529,19.491917,0
+          -99.145706,19.492994,0
+          -99.145738,19.493086,0
+          -99.146004,19.493183,0
+          -99.146248,19.493281,0
+          -99.146397,19.493291,0
+          -99.146483,19.493274,0
+          -99.146563,19.493159,0
+          -99.1466,19.493024,0
+          -99.146311,19.492292,0
+          -99.145877,19.491199,0
+          -99.145504,19.490253,0
+          -99.145055,19.489135,0
+          -99.144885,19.488705,0
+          -99.144715,19.488282,0
+          -99.144617,19.488023,0
+          -99.144512,19.48778,0
+          -99.144346,19.487331,0
+          -99.144329,19.487296,0
+          -99.144273,19.487122,0
+          -99.144131,19.486717,0
+          -99.143742,19.485759,0
+          -99.143476,19.48509,0
+          -99.143263,19.484546,0
+          -99.143035,19.483971,0
+          -99.142777,19.483325,0
+          -99.142542,19.482733,0
+          -99.142338,19.482211,0
+          -99.142245,19.481995,0
+          -99.141918,19.481148,0
+          -99.141699,19.480609,0
+          -99.141485,19.480083,0
+          -99.141206,19.479401,0
+          -99.14103,19.478949,0
+          -99.140595,19.47785,0
+          -99.140312,19.477106,0
+          -99.140111,19.476582,0
+          -99.139988,19.476293,0
+          -99.13974,19.475675,0
+          -99.139411,19.474848,0
+          -99.13921,19.474334,0
+          -99.138973,19.473743,0
+          -99.138776,19.473248,0
+          -99.138608,19.472831,0
+          -99.138392,19.472442,0
+          -99.138221,19.472172,0
+          -99.137986,19.471789,0
+          -99.137922,19.471601,0
+          -99.137739,19.471199,0
+          -99.137553,19.470828,0
+          -99.136182,19.468814,0
+          -99.136154,19.468757,0
+          -99.136154,19.468686,0
+          -99.136273,19.468468,0
+          -99.136761,19.467882,0
+          -99.13716,19.467421,0
+          -99.137351,19.467098,0
+          -99.137408,19.466984,0
+          -99.137509,19.466644,0
+          -99.137544,19.466352,0
+          -99.137555,19.466117,0
+          -99.137593,19.465302,0
+          -99.137568,19.46488,0
+          -99.137574,19.464696,0
+          -99.137587,19.46442,0
+          -99.137597,19.464187,0
+          -99.137608,19.463961,0
+          -99.137618,19.4638,0
+          -99.13762,19.463643,0
+          -99.137633,19.463417,0
+          -99.137648,19.463167,0
+          -99.137653,19.462993,0
+          -99.137665,19.46276,0
+          -99.137682,19.462438,0
+          -99.137696,19.462087,0
+          -99.137712,19.461741,0
+          -99.137727,19.461367,0
+          -99.13774,19.460991,0
+          -99.137754,19.460662,0
+          -99.137771,19.460381,0
+          -99.137795,19.459861,0
+          -99.137808,19.459528,0
+          -99.137821,19.45922,0
+          -99.137843,19.458779,0
+          -99.137874,19.458203,0
+          -99.137893,19.457833,0
+          -99.137921,19.457249,0
+          -99.137945,19.456847,0
+          -99.137955,19.456686,0
+          -99.137975,19.456537,0
+          -99.138101,19.456066,0
+          -99.13819,19.455731,0
+          -99.138278,19.455414,0
+          -99.138365,19.455067,0
+          -99.138394,19.454894,0
+          -99.138413,19.454771,0
+          -99.13843,19.454655,0
+          -99.13843,19.454131,0
+          -99.138435,19.453624,0
+          -99.138433,19.45334,0
+          -99.138444,19.452845,0
+          -99.138445,19.452421,0
+          -99.138452,19.452083,0
+          -99.138454,19.45158,0
+          -99.138459,19.451174,0
+          -99.13847,19.450482,0
+          -99.138465,19.450192,0
+          -99.13847,19.450043,0
+          -99.138494,19.44983,0
+          -99.138554,19.449502,0
+          -99.138615,19.449097,0
+          -99.138668,19.44875,0
+          -99.138721,19.448449,0
+          -99.138777,19.448095,0
+          -99.138818,19.447829,0
+          -99.138874,19.447465,0
+          -99.138949,19.446906,0
+          -99.139007,19.446533,0
+          -99.139058,19.446218,0
+          -99.139137,19.445676,0
+          -99.139181,19.445406,0
+          -99.139252,19.444882,0
+          -99.139338,19.444467,0
+          -99.139433,19.444076,0
+          -99.139503,19.443653,0
+          -99.139587,19.443124,0
+          -99.139695,19.442509,0
+          -99.139808,19.441829,0
+          -99.139876,19.441417,0
+          -99.139921,19.441106,0
+          -99.139927,19.441029,0
+          -99.139931,19.440903,0
+          -99.139936,19.440734,0
+          -99.139964,19.440531,0
+          -99.140002,19.440281,0
+          -99.140047,19.440001,0
+          -99.140074,19.439824,0
+          -99.140152,19.439351,0
+          -99.140211,19.438947,0
+          -99.140329,19.438277,0
+          -99.140391,19.437851,0
+          -99.140498,19.437195,0
+          -99.140593,19.43665,0
+          -99.140687,19.43591,0
+          -99.140738,19.435569,0
+          -99.140843,19.434863,0
+          -99.140936,19.434361,0
+          -99.141066,19.433617,0
+          -99.141144,19.433131,0
+          -99.141245,19.43253,0
+          -99.141315,19.432117,0
+          -99.141391,19.431516,0
+          -99.14148,19.430862,0
+          -99.141578,19.430158,0
+          -99.141669,19.429527,0
+          -99.141748,19.42891,0
+          -99.14184,19.428286,0
+          -99.141983,19.427461,0
+          -99.142057,19.427069,0
+          -99.142187,19.426442,0
+          -99.142325,19.425919,0
+          -99.142446,19.425449,0
+          -99.142541,19.425063,0
+          -99.142684,19.424507,0
+          -99.142832,19.42395,0
+          -99.142945,19.423506,0
+          -99.143032,19.423143,0
+          -99.143126,19.42278,0
+          -99.143167,19.422513,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL CENTRAL DE AUTOBUSES DEL SUR</name>
+      <description><![CDATA[Linea A<br>Direccion Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139201,19.341066,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TASQUEÑA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140827,19.341672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DIVISIÓN DEL NORTE</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148596,19.342715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AMERICA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149451,19.345234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IRLANDA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150371,19.348515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>XICOTENCATL</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.152174,19.354874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CHURUBUSCO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.152788,19.357134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AJUSCO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151738,19.359073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POPOCATEPETL</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151211,19.361978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMILIANO ZAPATA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150507,19.36622,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MUNICIPIO LIBRE</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150046,19.368743,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SANTA CRUZ</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149348,19.372714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>INDEPENDENCIA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148172,19.378764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KIFF</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147721,19.381103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAMOS MILLÁN</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147335,19.384206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GUIPÚZCOA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146814,19.388479,2245.74
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CORRESPONDENCIA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146329,19.392382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRO SCOP</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146078,19.394372,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SORIA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.145603,19.397908,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIADUCTO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144944,19.403317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LÁZARO CÁRDENAS</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144571,19.406957,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ANTONIO SOLÍS</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144307,19.409629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OBRERA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143974,19.412932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL JOSÉ OTHON</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143766,19.414959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALFREDO CHAVERO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143507,19.417509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOCTORES</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143125,19.421231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FRAY SERVANDO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142544,19.42433,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IZAZAGA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142034,19.426311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIZCAÍNAS</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141593,19.428758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REPÚBLICA DE URUGUAY</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141287,19.430982,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MADERO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140828,19.433924,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BELLAS ARTES</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140399,19.436719,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REPÚBLICA DE PERÚ</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.13995,19.439457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LUNA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138676,19.447578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FLORES MAGÓN</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138352,19.449526,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL GONZÁLEZ</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138254,19.45397,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GRANADOS</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.13776,19.456901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CHOPIN</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137583,19.460607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MASSENET</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137425,19.464114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RÍO CONSULADO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137307,19.466016,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 112</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139138,19.476353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL CENTRAL DE AUTOBUSES DEL NORTE</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140423,19.479576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C.C.H. VALLEJO</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142229,19.484099,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MASAGUA</name>
+      <description><![CDATA[Linea A<br>Direccion Sur-Norte]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143963,19.488585,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U. H. LINDAVISTA VALLEJO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146264,19.492111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>INSTITUTO DEL PETRÓLEO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144856,19.488565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 128</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14424,19.486971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TESORERÍA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143621,19.485385,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 118</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141669,19.480464,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 112</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140387,19.477248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 106</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138732,19.473065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LA RAZA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136751,19.469573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RÍO CONSULADO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.13759,19.465544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FELIPE VILLANUEVA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137631,19.463804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CHOPIN</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137741,19.461126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ROSSINI</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137924,19.457543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL GONZÁLEZ</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.13835,19.455158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FLORES MAGON</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138478,19.450158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LUNA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138808,19.447945,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIOLETA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140067,19.439907,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SANTA VERACRUZ</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140531,19.437097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>INDEPENDENCIA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141184,19.432913,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VICTORIA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141425,19.431353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIZCAÍNAS</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141723,19.429209,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SALTO DEL AGUA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14201,19.427342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. RÍO DE LA LOZA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142592,19.424922,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. PASCUA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143191,19.422439,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. NAVARRO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14335,19.420899,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. VELASCO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143534,19.419075,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. ACEVES</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143964,19.41482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR. DURÁN</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144245,19.412152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LÁZARO CÁRDENAS</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.144707,19.407614,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIADUCTO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14517,19.403043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MORENA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.145761,19.398307,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRO SCOP</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146134,19.395426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CUMBRES DE ACULTZINGO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146469,19.392824,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LUZ SAVIÑON</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14697,19.388998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CUMBRES DE MALTRATA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147196,19.387168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EUGENIA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147529,19.384215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ÁNGEL URRAZA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148211,19.379527,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MATÍAS ROMERO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148561,19.377794,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MIGUEL LAURENT</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149467,19.373143,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MUNICIPIO LIBRE</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150114,19.369528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMILIANO ZAPATA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150713,19.366067,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POPOCATÉPETL</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.15139,19.362126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SARATOGA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.152387,19.358689,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>XICOTÉNCATL</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.15254,19.355177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDALGO</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151556,19.351721,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AMÉRICA</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149814,19.345545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRAL</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147622,19.342273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO HUITZILAC</name>
+      <description><![CDATA[Linea A<br>Dirección Norte-Sur]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141455,19.3415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

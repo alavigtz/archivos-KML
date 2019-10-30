@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Linea I</name>
+    <Style id="icon-station-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-station-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-station">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-station-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-station-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-station-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-station-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-station-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-station-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-station-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-00FF00-9000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00FF00-9000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>13.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-00FF00-9000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00FF00-9000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00FF00-9000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>ROSARIO - CHAPULTEPEC</name>
+      <styleUrl>#line-00FF00-9000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.198492,19.511358,0
+          -99.198159,19.511407,0
+          -99.197784,19.511422,0
+          -99.197331,19.511437,0
+          -99.197112,19.511283,0
+          -99.197064,19.511015,0
+          -99.197678,19.509232,0
+          -99.197791,19.50891,0
+          -99.197888,19.507856,0
+          -99.198391,19.506283,0
+          -99.198351,19.505816,0
+          -99.197474,19.503046,0
+          -99.197473,19.502872,0
+          -99.198199,19.500689,0
+          -99.198304,19.500541,0
+          -99.198463,19.500441,0
+          -99.198599,19.500432,0
+          -99.198856,19.500506,0
+          -99.201207,19.501192,0
+          -99.201344,19.501434,0
+          -99.200787,19.503115,0
+          -99.200919,19.503611,0
+          -99.200122,19.506032,0
+          -99.198464,19.510988,0
+          -99.198584,19.511332,0
+          -99.198845,19.511562,0
+          -99.199124,19.511603,0
+          -99.200216,19.511336,0
+          -99.201063,19.511042,0
+          -99.201721,19.510762,0
+          -99.203494,19.509836,0
+          -99.204882,19.509133,0
+          -99.205707,19.50891,0
+          -99.207949,19.508703,0
+          -99.208387,19.508542,0
+          -99.208502,19.50819,0
+          -99.208349,19.506408,0
+          -99.208297,19.505763,0
+          -99.206537,19.504115,0
+          -99.205734,19.503077,0
+          -99.204302,19.501156,0
+          -99.20221,19.498938,0
+          -99.200363,19.497148,0
+          -99.199437,19.49613,0
+          -99.199101,19.495577,0
+          -99.197977,19.493828,0
+          -99.197006,19.492481,0
+          -99.196034,19.49129,0
+          -99.194846,19.489783,0
+          -99.194258,19.489263,0
+          -99.191968,19.48733,0
+          -99.190871,19.486384,0
+          -99.189851,19.485465,0
+          -99.189269,19.484749,0
+          -99.188757,19.483585,0
+          -99.188595,19.482396,0
+          -99.188656,19.481439,0
+          -99.188792,19.47988,0
+          -99.188862,19.479153,0
+          -99.188753,19.478883,0
+          -99.187719,19.47859,0
+          -99.185765,19.478038,0
+          -99.184659,19.477708,0
+          -99.184318,19.477113,0
+          -99.183953,19.476599,0
+          -99.182181,19.474459,0
+          -99.179397,19.471204,0
+          -99.179133,19.47088,0
+          -99.178871,19.47059,0
+          -99.17864,19.47032,0
+          -99.178411,19.470128,0
+          -99.178145,19.469854,0
+          -99.176599,19.468377,0
+          -99.176577,19.468271,0
+          -99.176583,19.468088,0
+          -99.176654,19.467928,0
+          -99.177213,19.466937,0
+          -99.177418,19.466563,0
+          -99.177487,19.465884,0
+          -99.177565,19.465099,0
+          -99.177722,19.463371,0
+          -99.177853,19.46203,0
+          -99.177993,19.460525,0
+          -99.178171,19.460214,0
+          -99.178538,19.459612,0
+          -99.179136,19.45862,0
+          -99.180248,19.45695,0
+          -99.180657,19.456354,0
+          -99.18126,19.455316,0
+          -99.181483,19.454024,0
+          -99.18163,19.453281,0
+          -99.181993,19.451149,0
+          -99.182211,19.449808,0
+          -99.182519,19.448014,0
+          -99.182805,19.445944,0
+          -99.182878,19.445369,0
+          -99.183134,19.443676,0
+          -99.183313,19.442376,0
+          -99.183542,19.440813,0
+          -99.183715,19.439605,0
+          -99.183744,19.439144,0
+          -99.1837,19.438539,0
+          -99.183579,19.437472,0
+          -99.183511,19.437042,0
+          -99.183223,19.436342,0
+          -99.182851,19.435423,0
+          -99.182643,19.434928,0
+          -99.182318,19.434153,0
+          -99.181998,19.433368,0
+          -99.18169,19.432615,0
+          -99.18126,19.431595,0
+          -99.180973,19.431005,0
+          -99.180561,19.430001,0
+          -99.18034,19.429479,0
+          -99.180265,19.429132,0
+          -99.180102,19.428618,0
+          -99.179937,19.428236,0
+          -99.179324,19.426723,0
+          -99.17909,19.426162,0
+          -99.178596,19.424966,0
+          -99.178162,19.423911,0
+          -99.178092,19.423635,0
+          -99.178068,19.422849,0
+          -99.178063,19.421684,0
+          -99.178051,19.420793,0
+          -99.178203,19.420642,0
+          -99.178431,19.4206,0
+          -99.178635,19.420677,0
+          -99.178754,19.42086,0
+          -99.178752,19.421026,0
+          -99.178623,19.421199,0
+          -99.178428,19.421279,0
+          -99.178139,19.421278,0
+          -99.177756,19.421302,0
+          -99.177339,19.421304,0
+          -99.177101,19.421295,0
+          -99.17692,19.421297,0
+          -99.176785,19.421259,0
+          -99.176549,19.421121,0
+          -99.176259,19.420976,0
+          -99.176047,19.420968,0
+          -99.175955,19.42098,0
+          -99.175745,19.421031,0
+          -99.175298,19.421119,0
+          -99.174681,19.421269,0
+          -99.174445,19.421355,0
+          -99.174359,19.421436,0
+          -99.174417,19.421635,0
+          -99.174783,19.422115,0
+          -99.175477,19.423089,0
+          -99.175847,19.423616,0
+          -99.176346,19.424539,0
+          -99.17682,19.425461,0
+          -99.177191,19.426411,0
+          -99.177491,19.427145,0
+          -99.17761,19.427277,0
+          -99.177886,19.427249,0
+          -99.178326,19.427082,0
+          -99.179085,19.426788,0
+          -99.179143,19.426794,0
+          -99.179183,19.426863,0
+          -99.179404,19.42741,0
+          -99.179886,19.428598,0
+          -99.180046,19.429077,0
+          -99.18018,19.429468,0
+          -99.180629,19.43056,0
+          -99.180873,19.431143,0
+          -99.18146,19.432578,0
+          -99.181929,19.43368,0
+          -99.182193,19.434347,0
+          -99.182514,19.43513,0
+          -99.182964,19.436208,0
+          -99.183217,19.436828,0
+          -99.183326,19.4371,0
+          -99.183392,19.43732,0
+          -99.183442,19.437835,0
+          -99.183515,19.438668,0
+          -99.183553,19.439209,0
+          -99.183524,19.439606,0
+          -99.183277,19.441263,0
+          -99.18313,19.442272,0
+          -99.182965,19.443498,0
+          -99.182813,19.444579,0
+          -99.182638,19.445828,0
+          -99.182418,19.447414,0
+          -99.182251,19.448419,0
+          -99.181991,19.449903,0
+          -99.181768,19.451408,0
+          -99.181423,19.453304,0
+          -99.181166,19.454806,0
+          -99.181071,19.455326,0
+          -99.180507,19.456236,0
+          -99.179662,19.457476,0
+          -99.179078,19.458284,0
+          -99.178058,19.459945,0
+          -99.177806,19.460404,0
+          -99.177721,19.46071,0
+          -99.177665,19.461296,0
+          -99.177551,19.462586,0
+          -99.177398,19.464275,0
+          -99.177253,19.465896,0
+          -99.177182,19.466461,0
+          -99.177053,19.46678,0
+          -99.176427,19.467825,0
+          -99.176266,19.467967,0
+          -99.17598,19.468258,0
+          -99.176005,19.468411,0
+          -99.176144,19.468583,0
+          -99.176329,19.468647,0
+          -99.17741,19.469675,0
+          -99.178267,19.47049,0
+          -99.178499,19.470741,0
+          -99.178629,19.470865,0
+          -99.17985,19.472337,0
+          -99.180414,19.47296,0
+          -99.1816,19.47432,0
+          -99.182896,19.475828,0
+          -99.183304,19.476323,0
+          -99.183768,19.47687,0
+          -99.184098,19.477264,0
+          -99.184446,19.47766,0
+          -99.184455,19.477729,0
+          -99.18439,19.477961,0
+          -99.184198,19.478614,0
+          -99.183931,19.47968,0
+          -99.183715,19.480484,0
+          -99.183475,19.481326,0
+          -99.183359,19.481765,0
+          -99.183137,19.482595,0
+          -99.183045,19.482944,0
+          -99.182895,19.483571,0
+          -99.182784,19.483969,0
+          -99.182831,19.484077,0
+          -99.183978,19.484297,0
+          -99.184802,19.484459,0
+          -99.185586,19.4846,0
+          -99.186594,19.484559,0
+          -99.188964,19.485088,0
+          -99.189115,19.485124,0
+          -99.189445,19.485561,0
+          -99.189771,19.485908,0
+          -99.190285,19.486353,0
+          -99.191469,19.487356,0
+          -99.192121,19.487905,0
+          -99.192598,19.488349,0
+          -99.193313,19.488949,0
+          -99.194061,19.48958,0
+          -99.194428,19.489882,0
+          -99.19488,19.490442,0
+          -99.195091,19.490693,0
+          -99.195312,19.490959,0
+          -99.1956,19.491294,0
+          -99.196072,19.491918,0
+          -99.196359,19.492328,0
+          -99.196977,19.49316,0
+          -99.19736,19.493654,0
+          -99.197522,19.493868,0
+          -99.197788,19.494286,0
+          -99.198242,19.495094,0
+          -99.198392,19.49536,0
+          -99.198522,19.495604,0
+          -99.198699,19.495878,0
+          -99.198832,19.496032,0
+          -99.198975,19.496204,0
+          -99.199127,19.496396,0
+          -99.199229,19.496532,0
+          -99.199497,19.496829,0
+          -99.199708,19.497071,0
+          -99.199889,19.497245,0
+          -99.200125,19.497477,0
+          -99.200373,19.4977,0
+          -99.200738,19.498048,0
+          -99.20111,19.498408,0
+          -99.201593,19.498878,0
+          -99.201999,19.499265,0
+          -99.202295,19.499536,0
+          -99.202804,19.500049,0
+          -99.203428,19.500729,0
+          -99.203879,19.501206,0
+          -99.204128,19.501518,0
+          -99.204473,19.501942,0
+          -99.204645,19.502213,0
+          -99.205089,19.502859,0
+          -99.205299,19.503155,0
+          -99.205915,19.50397,0
+          -99.206158,19.504306,0
+          -99.206419,19.504684,0
+          -99.2066,19.504879,0
+          -99.207055,19.505308,0
+          -99.207707,19.505894,0
+          -99.208072,19.506194,0
+          -99.208124,19.506298,0
+          -99.208151,19.506549,0
+          -99.208173,19.506808,0
+          -99.208217,19.507291,0
+          -99.208279,19.508083,0
+          -99.208292,19.508251,0
+          -99.208258,19.508336,0
+          -99.20819,19.508364,0
+          -99.208061,19.508372,0
+          -99.207491,19.508409,0
+          -99.206997,19.508455,0
+          -99.206195,19.50852,0
+          -99.205811,19.508585,0
+          -99.205513,19.508616,0
+          -99.205016,19.508737,0
+          -99.204558,19.508904,0
+          -99.203698,19.509333,0
+          -99.202745,19.509844,0
+          -99.202098,19.510181,0
+          -99.201541,19.510466,0
+          -99.200652,19.510811,0
+          -99.199968,19.511046,0
+          -99.199029,19.511257,0
+          -99.198492,19.511358,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CETRAM METRO CHAPULTEPEC</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.175483,19.42105,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VICTOR HUGO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177467,19.427103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MARIANO ESCOBEDO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179031,19.426799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DARWIN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179988,19.428937,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GUTEMBERG</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180752,19.430884,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HORACIO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181522,19.432772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EUCLIDES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182412,19.434907,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>THIERS</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183243,19.436947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGO ALBERTO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183512,19.439479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGUNA DE MAYRAN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183243,19.441351,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGUNA DE TERMINOS</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182947,19.443374,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGO BOLSENA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182664,19.44534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. MARINA NACIONAL</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182352,19.447535,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGO GARDA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182089,19.449101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FELIPE CARRILLO PUERTO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181811,19.450917,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAR ROJO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181432,19.453142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. MEXICO - TACUBA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180698,19.45587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAR MARMARA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.178752,19.458752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 44</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177735,19.460462,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 48 (BIOL. MAXIMINO MARTINEZ)</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177579,19.461773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 58</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177338,19.46467,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 62</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177075,19.466591,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GLORIETA DE CAMARONES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.176542,19.467553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SALONICA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.178064,19.470345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 87</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179246,19.471675,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2a CDA. DE TULA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182575,19.475494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 DE FEBRERO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.184248,19.477457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MINERVA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183469,19.481234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NUEVA JERUSALEN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183042,19.482814,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AHUACATITLA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183857,19.484286,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZARAGOZA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.186361,19.484584,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ANDALUCIA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188755,19.485055,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FFCC NACIONALES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.189472,19.485597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PRIV. DE AQUILES SERDAN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.191949,19.487784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 DE SEPTIEMBRE</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.194319,19.489802,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO AQUILES SERDÁN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.195192,19.490893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. SAUCES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.196596,19.492661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AHUEHUETES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198389,19.495392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA INDOMITA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200631,19.497951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA COLORADA</name>
+      <styleUrl>#icon-station-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -99.201711,19.498983,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA NUEVA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202929,19.500177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DEL ROSARIO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.204249,19.50169,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SORIANA EL ROSARIO</name>
+      <styleUrl>#icon-station-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205199,19.503037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FRENTE A NISSAN</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.206493,19.504753,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RENACIMIENTO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.207869,19.506032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CULTURAS</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208298,19.50804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RIO BLANCO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205712,19.508549,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDROGENO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202049,19.510163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CARBONO</name>
+      <styleUrl>#icon-station-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200574,19.510782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CULTURA NORTE</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197549,19.511404,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AZTACALCO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197821,19.50883,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DEPOSITO EL ROSARIO</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198322,19.505678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DE LOS ANGELES</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197815,19.501859,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA NEGRA</name>
+      <description><![CDATA[Línea I<br>Metro Chapultepec-Metro El Rosario]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198986,19.500552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CETRAM METRO EL ROSARIO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200142,19.505783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DE LAS CULTURAS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198513,19.511215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MECANICOS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.199311,19.511573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PESCADORES</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202043,19.510618,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CULTURA NÁHUATL</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205134,19.509095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALFAREROS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208406,19.508543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AQUILES SERDAN</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208368,19.50664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIFICIO. 26-B</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.206987,19.504447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HACIENDA DE SOTELO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205164,19.502212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VICTOR HERNANDEZ COVARRUBIAS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202442,19.499148,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAFAEL ALDUCIN</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.199302,19.495819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZEMPOALTECAS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.196529,19.491849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO AQUILES SERDÁN</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.195174,19.490128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTÉOTL</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.193354,19.488452,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SANTO DOMINGO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.191925,19.487239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REY MAXTLA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.190431,19.485946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDALGO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188685,19.481602,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL ACUÑA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188869,19.479379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AZCAPOTZALCO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.187606,19.478507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 DE FEBRERO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.185031,19.477782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NUBIA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182117,19.474348,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SALONICA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179288,19.471027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HELIOPOLIS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.176936,19.468687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NILO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177132,19.467149,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CLAVERIA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177587,19.46502,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BEGONIAS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177738,19.463472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PONIENTE 44</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177977,19.460798,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>J. SANCHEZ TRUJILLO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.17875,19.459347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. MEXICO - TACUBA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180313,19.456876,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAR CANTABRICO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181585,19.453542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FELIPE CARRILLO PUERTO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181995,19.451362,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. MARINA NACIONAL</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182368,19.448948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGO BOLSENA</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182845,19.445708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGUNA DE TERMINOS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183132,19.443772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGUNA DE MAYRAN</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183417,19.441855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAGO ALBERTO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183681,19.439975,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NEWTON</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183611,19.437342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOMERO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183009,19.435731,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HORACIO</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182025,19.433339,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. PRESIDENTE MAZARIK</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181451,19.431933,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CAMPOS ELISEOS</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180206,19.428842,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOLSTOI</name>
+      <description><![CDATA[Línea I<br>Metro El Rosario-Metro Chapultepec]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.178708,19.425135,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
