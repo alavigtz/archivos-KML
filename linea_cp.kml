@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CIRCUITO POLITÉCNICO</name>
+    <Style id="icon-station-normal">
+      <IconStyle>
+        <color>ffa02c76</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-station-highlight">
+      <IconStyle>
+        <color>ffa02c76</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-station">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-station-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-station-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-8363-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>8.363</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-8363-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>12.5445</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-8363-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-8363-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-8363-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>CIRCUITO POLITÉCNICO</name>
+      <styleUrl>#line-A52714-8363-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.146253,19.493769,0
+          -99.146182,19.494232,0
+          -99.146856,19.495987,0
+          -99.147233,19.496908,0
+          -99.147595,19.497822,0
+          -99.147968,19.49873,0
+          -99.148248,19.499457,0
+          -99.148343,19.499736,0
+          -99.148573,19.500291,0
+          -99.148793,19.500847,0
+          -99.149015,19.501425,0
+          -99.149331,19.502222,0
+          -99.149596,19.502912,0
+          -99.149901,19.503674,0
+          -99.150186,19.50436,0
+          -99.15043,19.504977,0
+          -99.150537,19.505234,0
+          -99.149756,19.505492,0
+          -99.149512,19.505531,0
+          -99.149208,19.505549,0
+          -99.148837,19.505687,0
+          -99.148256,19.505906,0
+          -99.147572,19.506158,0
+          -99.147159,19.506308,0
+          -99.146983,19.506308,0
+          -99.146779,19.506275,0
+          -99.146509,19.506193,0
+          -99.146256,19.506038,0
+          -99.146035,19.505882,0
+          -99.145625,19.505596,0
+          -99.145265,19.505359,0
+          -99.145094,19.505277,0
+          -99.144733,19.505146,0
+          -99.144086,19.504996,0
+          -99.143576,19.504911,0
+          -99.143193,19.504837,0
+          -99.141875,19.504591,0
+          -99.141108,19.50446,0
+          -99.139924,19.504254,0
+          -99.139207,19.504121,0
+          -99.138524,19.504,0
+          -99.137398,19.503812,0
+          -99.13636,19.503618,0
+          -99.135783,19.503526,0
+          -99.135707,19.503458,0
+          -99.135654,19.503374,0
+          -99.135648,19.503296,0
+          -99.135695,19.503001,0
+          -99.135701,19.502743,0
+          -99.135806,19.502195,0
+          -99.135921,19.501583,0
+          -99.136033,19.501018,0
+          -99.136124,19.500568,0
+          -99.136283,19.4997,0
+          -99.136406,19.499121,0
+          -99.136549,19.498386,0
+          -99.136729,19.497425,0
+          -99.136907,19.496544,0
+          -99.13698,19.496309,0
+          -99.137052,19.496076,0
+          -99.137093,19.495957,0
+          -99.137118,19.495818,0
+          -99.137149,19.495674,0
+          -99.137229,19.495588,0
+          -99.137363,19.49554,0
+          -99.137607,19.495559,0
+          -99.137982,19.495653,0
+          -99.138471,19.495767,0
+          -99.139086,19.495914,0
+          -99.139913,19.496116,0
+          -99.140399,19.496322,0
+          -99.140912,19.496563,0
+          -99.141473,19.496832,0
+          -99.142249,19.497186,0
+          -99.143309,19.497672,0
+          -99.144171,19.498051,0
+          -99.144657,19.498268,0
+          -99.14568,19.498675,0
+          -99.146348,19.498954,0
+          -99.146779,19.499132,0
+          -99.14688,19.499101,0
+          -99.146952,19.498916,0
+          -99.146917,19.498823,0
+          -99.14633,19.49858,0
+          -99.145747,19.498357,0
+          -99.14515,19.498123,0
+          -99.144466,19.497835,0
+          -99.143826,19.497552,0
+          -99.143302,19.497297,0
+          -99.142176,19.496792,0
+          -99.141581,19.496517,0
+          -99.141087,19.496286,0
+          -99.140299,19.495927,0
+          -99.140054,19.495825,0
+          -99.139609,19.495697,0
+          -99.138701,19.495489,0
+          -99.137647,19.495247,0
+          -99.136545,19.494993,0
+          -99.135897,19.494841,0
+          -99.134854,19.494608,0
+          -99.134654,19.49465,0
+          -99.134581,19.494713,0
+          -99.134616,19.494796,0
+          -99.134805,19.494928,0
+          -99.135501,19.495075,0
+          -99.135729,19.495163,0
+          -99.135826,19.495259,0
+          -99.136275,19.495343,0
+          -99.136533,19.495316,0
+          -99.136727,19.495364,0
+          -99.136808,19.495432,0
+          -99.136863,19.495566,0
+          -99.136846,19.495758,0
+          -99.136808,19.495935,0
+          -99.136789,19.496108,0
+          -99.136779,19.496274,0
+          -99.136457,19.497787,0
+          -99.136302,19.498599,0
+          -99.136124,19.499509,0
+          -99.135977,19.50029,0
+          -99.13578,19.501289,0
+          -99.135629,19.502056,0
+          -99.135415,19.503253,0
+          -99.135295,19.503373,0
+          -99.135216,19.503424,0
+          -99.13493,19.503381,0
+          -99.134751,19.503351,0
+          -99.134656,19.503368,0
+          -99.134587,19.503417,0
+          -99.13456,19.503481,0
+          -99.134583,19.503565,0
+          -99.134633,19.503646,0
+          -99.134713,19.50368,0
+          -99.135349,19.503783,0
+          -99.136067,19.503898,0
+          -99.136574,19.503996,0
+          -99.137048,19.504079,0
+          -99.137755,19.504192,0
+          -99.138247,19.504277,0
+          -99.138691,19.504355,0
+          -99.139615,19.504528,0
+          -99.140897,19.504749,0
+          -99.142106,19.504952,0
+          -99.143307,19.505156,0
+          -99.143721,19.505177,0
+          -99.144352,19.505285,0
+          -99.144749,19.5054,0
+          -99.145009,19.505501,0
+          -99.145308,19.505674,0
+          -99.145884,19.506072,0
+          -99.146291,19.50635,0
+          -99.146544,19.506484,0
+          -99.146829,19.506569,0
+          -99.147107,19.506611,0
+          -99.147312,19.506602,0
+          -99.147659,19.506509,0
+          -99.14863,19.50617,0
+          -99.149329,19.505911,0
+          -99.149921,19.505695,0
+          -99.151415,19.505122,0
+          -99.15111,19.504384,0
+          -99.150862,19.503748,0
+          -99.150591,19.503047,0
+          -99.150388,19.502529,0
+          -99.150165,19.501972,0
+          -99.149778,19.501009,0
+          -99.149553,19.500456,0
+          -99.149361,19.499972,0
+          -99.149157,19.499458,0
+          -99.148693,19.498255,0
+          -99.148496,19.497789,0
+          -99.147778,19.496005,0
+          -99.147643,19.495617,0
+          -99.147433,19.495072,0
+          -99.146983,19.494212,0
+          -99.146816,19.493803,0
+          -99.146669,19.493676,0
+          -99.146476,19.493628,0
+          -99.146357,19.493659,0
+          -99.146253,19.493769,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL ZACATENCO</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136255,19.495319,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 1 ESIME</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136468,19.497638,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 2 ESIME</name>
+      <description>Linea CP</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136331,19.498342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 4 ESIME</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136095,19.499577,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 6 ESIQIE</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.135836,19.500873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 8 ESIQIE</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.135594,19.502132,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 10,11 Y 12 ESIA</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.134812,19.503316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. 11 ESIA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136928,19.504016,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LUIS ENRIQUE ERRO (BIBLIOTECA ESIA)</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.138621,19.504313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SECRETARIA DE EXTENSION Y DIFISION</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139856,19.50456,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIF. CENTRAL DE INTELIGENCIA DE COMPUTO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142183,19.504941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ma. LUISA STAMPA ORTIGOZA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143182,19.505114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. ESCOM</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.145539,19.505817,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. VIP´S TORRES LINDAVISTA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146416,19.506412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FRENTE A EDIFICIOS UNIDAD PATERA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151107,19.504337,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO POLITÉCNICO (PONIENTE)</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149587,19.500458,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MONTEVIDEO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146552,19.493594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OTAVALO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14658,19.495283,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WILFRIDO MASSIEU</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148068,19.49906,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO POLITÉCNICO (ORIENTE)</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148573,19.500275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. OTHON DE MENDIZABAL</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150302,19.504686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CENTRAL</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148921,19.505581,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JUAN DE DIOS BATIZ</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147234,19.506212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESCOM</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.145661,19.505571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ma. LUISA STAMPA ORTIGOZA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143708,19.504891,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. CENTRAL DE INTELIGENCIA DE COMPUTO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142227,19.504612,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. CANCHA DE ENTRENAMIENTO PIELES ROJAS</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139518,19.504129,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF 11 ESIA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137043,19.503697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL DE ANDA Y BARREDO</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.135971,19.503507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. 8 ESIQIE</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.135806,19.50216,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. 6 ESIQIE</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136058,19.500893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. 4 ESIME</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136303,19.4996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. 2 ESIME</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136559,19.498365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. EDIF. 1 ESIME</name>
+      <description>Linea Circuito Politécnico</description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.136692,19.497663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENLEX</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139328,19.495965,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLANETARIO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140067,19.496184,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRO DE FORMACION EDUCATIVA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141959,19.497048,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESC. NACIONAL DE CIENCIAS BIOLÓGICAS</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14576,19.498712,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CDA. MANUEL STAMPA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.14673,19.499107,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIA CETI</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.143939,19.497543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. CENTRO DE FORMACION EDUCATIVA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142135,19.496738,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. 45 METROS</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140735,19.496087,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HUACHO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139509,19.495631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OROYA</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.13636,19.494916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FTE. A ENTRADA A EL QUESO</name>
+      <description>Linea Circuito Politécnico </description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.134979,19.494935,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
