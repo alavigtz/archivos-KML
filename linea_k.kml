@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Linea K</name>
+    <Style id="icon-station-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-station-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-station">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-station-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-station-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F57C00-7000-nodesc-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>7</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F57C00-7000-nodesc-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>10.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F57C00-7000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F57C00-7000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F57C00-7000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>SAN FRANCISCO - CIUDAD UNIVERSITARIA</name>
+      <styleUrl>#line-F57C00-7000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.190568,19.335503,0
+          -99.190574,19.335547,0
+          -99.190585,19.335714,0
+          -99.190627,19.336022,0
+          -99.19066,19.336203,0
+          -99.190674,19.336333,0
+          -99.190642,19.336414,0
+          -99.19056,19.33649,0
+          -99.190423,19.336528,0
+          -99.189885,19.336558,0
+          -99.189294,19.33661,0
+          -99.188705,19.336666,0
+          -99.187987,19.336742,0
+          -99.187551,19.336793,0
+          -99.186837,19.336872,0
+          -99.186251,19.336932,0
+          -99.185507,19.337015,0
+          -99.184682,19.337107,0
+          -99.184393,19.337158,0
+          -99.184192,19.337216,0
+          -99.184034,19.337274,0
+          -99.183535,19.337497,0
+          -99.183364,19.337606,0
+          -99.18317,19.337748,0
+          -99.182907,19.337967,0
+          -99.1826,19.338319,0
+          -99.182434,19.338551,0
+          -99.182252,19.33887,0
+          -99.182116,19.339224,0
+          -99.181994,19.339688,0
+          -99.181888,19.340228,0
+          -99.181775,19.340821,0
+          -99.18165,19.341428,0
+          -99.181554,19.341882,0
+          -99.181415,19.342591,0
+          -99.181292,19.34316,0
+          -99.181075,19.344241,0
+          -99.180907,19.345073,0
+          -99.180827,19.345454,0
+          -99.180752,19.345781,0
+          -99.180707,19.346002,0
+          -99.180634,19.346394,0
+          -99.180575,19.346663,0
+          -99.180554,19.34672,0
+          -99.180519,19.346771,0
+          -99.180459,19.346799,0
+          -99.18038,19.346801,0
+          -99.180316,19.346782,0
+          -99.180048,19.346693,0
+          -99.179743,19.346605,0
+          -99.179388,19.3465,0
+          -99.178966,19.346393,0
+          -99.178396,19.346276,0
+          -99.178034,19.346212,0
+          -99.177637,19.346158,0
+          -99.177319,19.346117,0
+          -99.176957,19.346072,0
+          -99.176445,19.346011,0
+          -99.175931,19.345951,0
+          -99.175423,19.345886,0
+          -99.174898,19.345824,0
+          -99.174291,19.34575,0
+          -99.173626,19.345671,0
+          -99.173071,19.3456,0
+          -99.17249,19.345531,0
+          -99.171966,19.345469,0
+          -99.1713,19.345387,0
+          -99.170724,19.345318,0
+          -99.170104,19.345242,0
+          -99.169317,19.345147,0
+          -99.168731,19.345075,0
+          -99.168128,19.344999,0
+          -99.167274,19.344901,0
+          -99.166445,19.344796,0
+          -99.165749,19.344713,0
+          -99.165212,19.344643,0
+          -99.164141,19.344517,0
+          -99.163384,19.344419,0
+          -99.162798,19.344353,0
+          -99.162138,19.344265,0
+          -99.161398,19.344184,0
+          -99.160892,19.344107,0
+          -99.160476,19.344039,0
+          -99.160038,19.343984,0
+          -99.159481,19.343912,0
+          -99.158861,19.343851,0
+          -99.158183,19.343778,0
+          -99.157672,19.343711,0
+          -99.157074,19.343644,0
+          -99.156202,19.343529,0
+          -99.155527,19.343447,0
+          -99.154896,19.343356,0
+          -99.154275,19.343261,0
+          -99.153365,19.343144,0
+          -99.152545,19.343025,0
+          -99.152009,19.342957,0
+          -99.151603,19.342894,0
+          -99.150994,19.342815,0
+          -99.150358,19.342731,0
+          -99.149973,19.342683,0
+          -99.149512,19.342606,0
+          -99.148962,19.342528,0
+          -99.148266,19.342426,0
+          -99.147539,19.342333,0
+          -99.146992,19.342253,0
+          -99.146607,19.342215,0
+          -99.146333,19.342202,0
+          -99.145818,19.342145,0
+          -99.14535,19.342093,0
+          -99.144677,19.342011,0
+          -99.143969,19.341915,0
+          -99.143313,19.341822,0
+          -99.142787,19.341744,0
+          -99.142141,19.34165,0
+          -99.141812,19.341608,0
+          -99.141448,19.341547,0
+          -99.140915,19.341478,0
+          -99.140515,19.341421,0
+          -99.139997,19.341358,0
+          -99.139423,19.341294,0
+          -99.136726,19.340953,0
+          -99.135867,19.340842,0
+          -99.135153,19.340751,0
+          -99.134434,19.340655,0
+          -99.134247,19.340616,0
+          -99.13358,19.340432,0
+          -99.133029,19.340253,0
+          -99.132353,19.34006,0
+          -99.131615,19.339854,0
+          -99.130596,19.339579,0
+          -99.13004,19.339425,0
+          -99.129199,19.339189,0
+          -99.128303,19.338936,0
+          -99.127554,19.338708,0
+          -99.126744,19.338455,0
+          -99.125834,19.338179,0
+          -99.125307,19.338057,0
+          -99.124134,19.337784,0
+          -99.122957,19.337523,0
+          -99.122431,19.337408,0
+          -99.121838,19.337287,0
+          -99.121417,19.3372,0
+          -99.121124,19.337162,0
+          -99.12076,19.337146,0
+          -99.120507,19.337169,0
+          -99.120158,19.337239,0
+          -99.119881,19.337325,0
+          -99.119661,19.33742,0
+          -99.119364,19.337598,0
+          -99.119047,19.337795,0
+          -99.118776,19.337944,0
+          -99.118482,19.338125,0
+          -99.11791,19.33847,0
+          -99.117295,19.338818,0
+          -99.117303,19.338918,0
+          -99.117334,19.338986,0
+          -99.117431,19.339007,0
+          -99.117542,19.338949,0
+          -99.11785,19.338774,0
+          -99.118202,19.338556,0
+          -99.11858,19.338321,0
+          -99.11899,19.338069,0
+          -99.11936,19.33784,0
+          -99.119768,19.337606,0
+          -99.120141,19.337457,0
+          -99.120499,19.337367,0
+          -99.120923,19.337321,0
+          -99.121389,19.337368,0
+          -99.121946,19.337511,0
+          -99.122496,19.337634,0
+          -99.122851,19.337716,0
+          -99.123496,19.337853,0
+          -99.123884,19.337945,0
+          -99.124831,19.338158,0
+          -99.125583,19.338323,0
+          -99.126274,19.338527,0
+          -99.127035,19.338759,0
+          -99.127586,19.338929,0
+          -99.12811,19.339095,0
+          -99.128456,19.339196,0
+          -99.129023,19.339359,0
+          -99.129573,19.339511,0
+          -99.130335,19.339721,0
+          -99.130993,19.339904,0
+          -99.131806,19.340116,0
+          -99.132231,19.340244,0
+          -99.132864,19.340415,0
+          -99.133691,19.340671,0
+          -99.134215,19.340831,0
+          -99.134398,19.340886,0
+          -99.134565,19.340928,0
+          -99.134737,19.340937,0
+          -99.134958,19.340928,0
+          -99.135191,19.34095,0
+          -99.135466,19.340987,0
+          -99.135906,19.34105,0
+          -99.136393,19.341121,0
+          -99.13701,19.341203,0
+          -99.137833,19.341302,0
+          -99.138659,19.341407,0
+          -99.139308,19.341494,0
+          -99.139804,19.34156,0
+          -99.140436,19.341641,0
+          -99.141072,19.341732,0
+          -99.141324,19.341776,0
+          -99.141897,19.341809,0
+          -99.142231,19.341851,0
+          -99.14239,19.341906,0
+          -99.142522,19.341987,0
+          -99.142666,19.342121,0
+          -99.142842,19.342328,0
+          -99.14301,19.342511,0
+          -99.143206,19.342647,0
+          -99.143445,19.342751,0
+          -99.143693,19.342802,0
+          -99.143924,19.342803,0
+          -99.144191,19.34275,0
+          -99.144436,19.342632,0
+          -99.144611,19.342501,0
+          -99.144764,19.342402,0
+          -99.144934,19.342329,0
+          -99.145088,19.342286,0
+          -99.145268,19.342262,0
+          -99.14546,19.34228,0
+          -99.145748,19.342328,0
+          -99.146322,19.342408,0
+          -99.147222,19.342521,0
+          -99.148205,19.342666,0
+          -99.148507,19.342698,0
+          -99.149042,19.342777,0
+          -99.14977,19.342875,0
+          -99.150397,19.342963,0
+          -99.151147,19.343068,0
+          -99.151652,19.343127,0
+          -99.152329,19.343221,0
+          -99.15306,19.343325,0
+          -99.153724,19.343415,0
+          -99.154367,19.343503,0
+          -99.154853,19.343565,0
+          -99.155383,19.343627,0
+          -99.156015,19.343728,0
+          -99.156476,19.343794,0
+          -99.156876,19.343845,0
+          -99.15749,19.343925,0
+          -99.15797,19.343987,0
+          -99.158505,19.34405,0
+          -99.159123,19.344125,0
+          -99.15973,19.34419,0
+          -99.160343,19.34427,0
+          -99.160972,19.34436,0
+          -99.161558,19.344442,0
+          -99.16216,19.344518,0
+          -99.163054,19.344623,0
+          -99.16362,19.344697,0
+          -99.164821,19.344843,0
+          -99.165607,19.344934,0
+          -99.166181,19.345012,0
+          -99.166757,19.345079,0
+          -99.1673,19.34514,0
+          -99.167706,19.345189,0
+          -99.168094,19.345241,0
+          -99.168605,19.345304,0
+          -99.169015,19.345354,0
+          -99.169473,19.345409,0
+          -99.169884,19.345458,0
+          -99.170229,19.345502,0
+          -99.170691,19.345557,0
+          -99.171338,19.345633,0
+          -99.171776,19.345688,0
+          -99.172349,19.345757,0
+          -99.172841,19.345817,0
+          -99.173478,19.345893,0
+          -99.173834,19.345938,0
+          -99.174166,19.345978,0
+          -99.174686,19.34604,0
+          -99.175138,19.346096,0
+          -99.175528,19.346145,0
+          -99.17578,19.346172,0
+          -99.176402,19.346248,0
+          -99.176988,19.346322,0
+          -99.177645,19.346402,0
+          -99.178527,19.346544,0
+          -99.178969,19.34664,0
+          -99.179493,19.346782,0
+          -99.179897,19.346902,0
+          -99.180244,19.347003,0
+          -99.180325,19.347044,0
+          -99.180388,19.347102,0
+          -99.180452,19.347179,0
+          -99.180551,19.347218,0
+          -99.180675,19.34723,0
+          -99.18076,19.347191,0
+          -99.180814,19.347137,0
+          -99.180863,19.347052,0
+          -99.180857,19.346936,0
+          -99.180808,19.346836,0
+          -99.180757,19.346757,0
+          -99.180768,19.346664,0
+          -99.180839,19.346349,0
+          -99.180964,19.34575,0
+          -99.181064,19.345321,0
+          -99.181197,19.344686,0
+          -99.181287,19.344235,0
+          -99.181441,19.343504,0
+          -99.181569,19.342867,0
+          -99.181718,19.342151,0
+          -99.181866,19.341424,0
+          -99.182043,19.340556,0
+          -99.182172,19.339886,0
+          -99.18229,19.339378,0
+          -99.18244,19.338964,0
+          -99.182517,19.338809,0
+          -99.182649,19.338588,0
+          -99.182782,19.338408,0
+          -99.182895,19.338272,0
+          -99.183095,19.338077,0
+          -99.18333,19.337882,0
+          -99.183473,19.337784,0
+          -99.183587,19.337722,0
+          -99.183712,19.337667,0
+          -99.183844,19.337625,0
+          -99.184041,19.337597,0
+          -99.184194,19.337586,0
+          -99.184327,19.337581,0
+          -99.184389,19.337579,0
+          -99.184443,19.337598,0
+          -99.184563,19.337638,0
+          -99.184683,19.337685,0
+          -99.184923,19.337764,0
+          -99.185046,19.337804,0
+          -99.185165,19.337829,0
+          -99.185356,19.337867,0
+          -99.185638,19.337908,0
+          -99.186007,19.337962,0
+          -99.186295,19.338005,0
+          -99.186593,19.338046,0
+          -99.18683,19.338086,0
+          -99.187112,19.338113,0
+          -99.187389,19.338146,0
+          -99.187667,19.33817,0
+          -99.188097,19.338232,0
+          -99.188367,19.338272,0
+          -99.188624,19.338305,0
+          -99.189056,19.338356,0
+          -99.189858,19.338457,0
+          -99.190204,19.338505,0
+          -99.190273,19.338495,0
+          -99.190333,19.338465,0
+          -99.190367,19.338436,0
+          -99.190387,19.338406,0
+          -99.190403,19.338368,0
+          -99.190407,19.338305,0
+          -99.1904,19.338233,0
+          -99.190365,19.33794,0
+          -99.190335,19.337679,0
+          -99.190303,19.337319,0
+          -99.190276,19.337044,0
+          -99.190235,19.33672,0
+          -99.190206,19.336479,0
+          -99.190178,19.336293,0
+          -99.190147,19.336027,0
+          -99.190116,19.335774,0
+          -99.190111,19.335681,0
+          -99.190133,19.335606,0
+          -99.190166,19.335493,0
+          -99.19023,19.335398,0
+          -99.190302,19.335353,0
+          -99.190384,19.335337,0
+          -99.190447,19.335356,0
+          -99.190494,19.335383,0
+          -99.190543,19.33543,0
+          -99.190568,19.335503,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL CD. UNIVERSITARIA - ESTADIO C.U</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.19062,19.336127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PSICOLOGIA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.187236,19.336771,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. COPILCO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.184359,19.337111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HERMANOS VAZQUEZ</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182061,19.339352,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO ACASULCO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181546,19.341845,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO XICO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181213,19.343434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO. M. A. DE QUEVEDO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180605,19.346431,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO DEL HOMBRE</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.177027,19.346093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZARAGOZA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.174079,19.345707,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MELCHOR OCAMPO (MEGA COMERCIAL)</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.171753,19.345379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MOCTEZUMA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.167984,19.344965,2258.85
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CUADRANTE SAN FRANCISCO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.164496,19.344534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PUENTE SAN FRANCISCO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.162159,19.344241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FERNANDEZ LEAL</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.159417,19.343861,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EUROPA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.157359,19.343629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OCEANIA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.154149,19.3432,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OHIO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151642,19.342863,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DIVISION DEL NORTE</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.149161,19.34253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRAL</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147623,19.342289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO HUITZILAC</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141454,19.34151,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO ZACAYUCA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.139195,19.341222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO MACUILTEPEC</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137721,19.341026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PETROLEOS MEXICANOS</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.133105,19.340215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CASTELLANOS QUINTO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.130198,19.339414,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EJIDO SANTA ISABEL TOLA</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.127505,19.338634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESCUELA NAVAL MILITAR</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.12297,19.337497,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MIGUEL HIDALGO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.12014,19.337196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EJIDO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.118382,19.338162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJON. SAN PABLO</name>
+      <description><![CDATA[Línea K<br>Ciudad Universitaria-Lomas Estrella]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.117344,19.338744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL SAN FRANCISCO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.118063,19.338655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1a. CDA. HIDALGO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.119839,19.337567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESCUELA NAVAL MILITAR</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.122506,19.337618,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PASEO DE LOS TROJES</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.126861,19.338715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PASEO DE LOS ABETOS (CECYT 13)</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.129309,19.339446,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO DEL CUBILETE</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.134125,19.340797,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CANAL DE MIRAMONTES</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.137049,19.341214,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO TASQUEÑA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.140824,19.341686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DIVISION DEL NORTE</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.148598,19.342719,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. INGLATERRA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151885,19.34317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AMERICA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.1554,19.343615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ASIA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.158723,19.344077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PUENTE SAN FRANCISCO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.161818,19.34448,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FELIPE CARRILLO PUERTO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.163761,19.344722,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AURORA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.167526,19.345159,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PINO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.16992,19.345458,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESCONDIDA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.171815,19.345687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZARAGOZA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.173646,19.345917,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO DEL HOMBRE</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.176524,19.346273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. UNIVERSIDAD</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.18004,19.346944,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO M. A. DE QUEVEDO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.180903,19.346171,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OXTOPULCO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.181425,19.343748,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERRO DE TUERA</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.18175,19.342113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HERMANOS VAZQUEZ</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182382,19.339168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. COPILCO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183621,19.337707,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RETORNO COPILCO</name>
+      <description><![CDATA[Línea K<br>Lomas Estrella-Ciudad Universitaria]]></description>
+      <styleUrl>#icon-station</styleUrl>
+      <Point>
+        <coordinates>
+          -99.186823,19.338087,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

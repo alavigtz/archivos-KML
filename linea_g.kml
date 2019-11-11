@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Linea G</name>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-00FF00-9000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00FF00-9000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>13.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-00FF00-9000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00FF00-9000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00FF00-9000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>PUERTO AEREO</name>
+      <styleUrl>#line-00FF00-9000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -99.198492,19.511358,0
+          -99.198159,19.511407,0
+          -99.197784,19.511422,0
+          -99.197331,19.511437,0
+          -99.197112,19.511283,0
+          -99.197064,19.511015,0
+          -99.197678,19.509232,0
+          -99.197791,19.50891,0
+          -99.197888,19.507856,0
+          -99.198391,19.506283,0
+          -99.198351,19.505816,0
+          -99.197474,19.503046,0
+          -99.197473,19.502872,0
+          -99.198199,19.500689,0
+          -99.198304,19.500541,0
+          -99.198463,19.500441,0
+          -99.198599,19.500432,0
+          -99.198856,19.500506,0
+          -99.201207,19.501192,0
+          -99.201344,19.501434,0
+          -99.200787,19.503115,0
+          -99.200919,19.503611,0
+          -99.200122,19.506032,0
+          -99.198464,19.510988,0
+          -99.198584,19.511332,0
+          -99.198845,19.511562,0
+          -99.199124,19.511603,0
+          -99.200216,19.511336,0
+          -99.201063,19.511042,0
+          -99.201721,19.510762,0
+          -99.203494,19.509836,0
+          -99.204882,19.509133,0
+          -99.205707,19.50891,0
+          -99.207949,19.508703,0
+          -99.208387,19.508542,0
+          -99.208502,19.50819,0
+          -99.208349,19.506408,0
+          -99.208297,19.505763,0
+          -99.206537,19.504115,0
+          -99.205734,19.503077,0
+          -99.204302,19.501156,0
+          -99.20221,19.498938,0
+          -99.200363,19.497148,0
+          -99.199437,19.49613,0
+          -99.199101,19.495577,0
+          -99.197977,19.493828,0
+          -99.197006,19.492481,0
+          -99.196034,19.49129,0
+          -99.194846,19.489783,0
+          -99.194258,19.489263,0
+          -99.191968,19.48733,0
+          -99.190871,19.486384,0
+          -99.189851,19.485465,0
+          -99.189269,19.484749,0
+          -99.188757,19.483585,0
+          -99.188595,19.482396,0
+          -99.188656,19.481439,0
+          -99.188792,19.47988,0
+          -99.188862,19.479153,0
+          -99.188753,19.478883,0
+          -99.187719,19.47859,0
+          -99.185765,19.478038,0
+          -99.184659,19.477708,0
+          -99.184318,19.477113,0
+          -99.183953,19.476599,0
+          -99.182181,19.474459,0
+          -99.180757,19.472813,0
+          -99.178555,19.470275,0
+          -99.176889,19.468679,0
+          -99.176496,19.468311,0
+          -99.176349,19.468252,0
+          -99.176145,19.468242,0
+          -99.175944,19.468284,0
+          -99.175832,19.46832,0
+          -99.175437,19.468432,0
+          -99.172689,19.469309,0
+          -99.170375,19.470044,0
+          -99.166302,19.471299,0
+          -99.164946,19.471734,0
+          -99.163757,19.472125,0
+          -99.162862,19.472415,0
+          -99.160475,19.47317,0
+          -99.159224,19.473553,0
+          -99.15863,19.473547,0
+          -99.156253,19.473435,0
+          -99.154457,19.473287,0
+          -99.152676,19.473125,0
+          -99.150935,19.47301,0
+          -99.149147,19.47317,0
+          -99.148641,19.473186,0
+          -99.147488,19.473122,0
+          -99.146135,19.473022,0
+          -99.145291,19.472962,0
+          -99.144826,19.472817,0
+          -99.143353,19.472481,0
+          -99.142594,19.472292,0
+          -99.141273,19.472004,0
+          -99.140875,19.471914,0
+          -99.140131,19.471808,0
+          -99.138376,19.471415,0
+          -99.135844,19.470893,0
+          -99.134343,19.470529,0
+          -99.133126,19.470191,0
+          -99.132128,19.469905,0
+          -99.128595,19.469046,0
+          -99.125134,19.468232,0
+          -99.123602,19.4677,0
+          -99.120502,19.466616,0
+          -99.118512,19.465922,0
+          -99.116109,19.465076,0
+          -99.112204,19.463722,0
+          -99.107705,19.462132,0
+          -99.105625,19.461422,0
+          -99.103987,19.460874,0
+          -99.102202,19.46025,0
+          -99.099828,19.459387,0
+          -99.098111,19.458777,0
+          -99.097661,19.458627,0
+          -99.097407,19.45846,0
+          -99.097202,19.458238,0
+          -99.09708,19.458053,0
+          -99.09697,19.457713,0
+          -99.096971,19.457339,0
+          -99.097176,19.456762,0
+          -99.097362,19.456134,0
+          -99.097339,19.455736,0
+          -99.097286,19.455473,0
+          -99.097163,19.455178,0
+          -99.096935,19.454893,0
+          -99.096259,19.454248,0
+          -99.095875,19.453933,0
+          -99.095537,19.453681,0
+          -99.094477,19.452676,0
+          -99.09425,19.45245,0
+          -99.093745,19.45154,0
+          -99.093599,19.451442,0
+          -99.093148,19.451288,0
+          -99.092819,19.451112,0
+          -99.091655,19.450054,0
+          -99.0905,19.448932,0
+          -99.089455,19.447957,0
+          -99.088717,19.447264,0
+          -99.088036,19.446652,0
+          -99.087767,19.446388,0
+          -99.08762,19.446178,0
+          -99.087012,19.4449,0
+          -99.086908,19.444655,0
+          -99.086922,19.444577,0
+          -99.087198,19.444318,0
+          -99.087575,19.443718,0
+          -99.088311,19.442478,0
+          -99.089141,19.441117,0
+          -99.09012,19.439492,0
+          -99.091312,19.437327,0
+          -99.09192,19.436231,0
+          -99.093434,19.433511,0
+          -99.094064,19.432365,0
+          -99.096028,19.428819,0
+          -99.096838,19.42736,0
+          -99.096853,19.4273,0
+          -99.096818,19.427251,0
+          -99.096051,19.426876,0
+          -99.094123,19.425913,0
+          -99.093398,19.425554,0
+          -99.093385,19.425509,0
+          -99.093732,19.424891,0
+          -99.094441,19.423592,0
+          -99.095317,19.42201,0
+          -99.096054,19.420663,0
+          -99.096078,19.420585,0
+          -99.096064,19.420492,0
+          -99.095996,19.420431,0
+          -99.095896,19.420412,0
+          -99.095811,19.420438,0
+          -99.09576,19.420495,0
+          -99.095247,19.421437,0
+          -99.094675,19.422477,0
+          -99.093919,19.423831,0
+          -99.093299,19.424964,0
+          -99.09296,19.425547,0
+          -99.092164,19.42692,0
+          -99.09164,19.427921,0
+          -99.090907,19.42925,0
+          -99.090379,19.43021,0
+          -99.089597,19.431628,0
+          -99.088975,19.432749,0
+          -99.088737,19.43319,0
+          -99.088658,19.433332,0
+          -99.088551,19.433514,0
+          -99.088361,19.433743,0
+          -99.088092,19.434045,0
+          -99.087836,19.4343,0
+          -99.087569,19.434596,0
+          -99.087339,19.434857,0
+          -99.08675,19.435478,0
+          -99.086565,19.435769,0
+          -99.086465,19.436009,0
+          -99.086408,19.436175,0
+          -99.086323,19.436535,0
+          -99.086265,19.436862,0
+          -99.086146,19.437456,0
+          -99.085941,19.438509,0
+          -99.085865,19.438789,0
+          -99.085717,19.439232,0
+          -99.085576,19.439605,0
+          -99.085417,19.440041,0
+          -99.085216,19.440648,0
+          -99.08516,19.441055,0
+          -99.085164,19.44138,0
+          -99.085181,19.441552,0
+          -99.085262,19.441914,0
+          -99.085326,19.442118,0
+          -99.085545,19.442624,0
+          -99.086195,19.4441,0
+          -99.08664,19.445085,0
+          -99.087079,19.446054,0
+          -99.087175,19.44626,0
+          -99.087317,19.446504,0
+          -99.087455,19.446696,0
+          -99.087971,19.44717,0
+          -99.088525,19.447692,0
+          -99.089254,19.448302,0
+          -99.090035,19.449025,0
+          -99.09062,19.449601,0
+          -99.092145,19.451058,0
+          -99.092955,19.451795,0
+          -99.094483,19.453239,0
+          -99.095204,19.453842,0
+          -99.096748,19.455154,0
+          -99.096887,19.455332,0
+          -99.096974,19.455503,0
+          -99.097059,19.455761,0
+          -99.097075,19.455936,0
+          -99.097062,19.456196,0
+          -99.096869,19.456737,0
+          -99.0966,19.457441,0
+          -99.096304,19.45823,0
+          -99.095703,19.459811,0
+          -99.095537,19.460243,0
+          -99.095127,19.461355,0
+          -99.095124,19.46149,0
+          -99.095189,19.461565,0
+          -99.095295,19.461567,0
+          -99.095402,19.461452,0
+          -99.095835,19.460309,0
+          -99.096372,19.458915,0
+          -99.096637,19.458689,0
+          -99.096994,19.458606,0
+          -99.097199,19.458635,0
+          -99.098061,19.458929,0
+          -99.098572,19.459098,0
+          -99.099955,19.459603,0
+          -99.101687,19.460206,0
+          -99.103076,19.460686,0
+          -99.105169,19.461438,0
+          -99.106878,19.462055,0
+          -99.109203,19.46287,0
+          -99.112761,19.464098,0
+          -99.113672,19.464431,0
+          -99.115065,19.464911,0
+          -99.116902,19.465562,0
+          -99.117891,19.465908,0
+          -99.11899,19.466304,0
+          -99.119887,19.46661,0
+          -99.120735,19.466887,0
+          -99.121629,19.467219,0
+          -99.122597,19.467544,0
+          -99.123551,19.467891,0
+          -99.124462,19.468206,0
+          -99.124779,19.468304,0
+          -99.125289,19.468468,0
+          -99.126203,19.468684,0
+          -99.127014,19.468889,0
+          -99.127634,19.469035,0
+          -99.128255,19.469175,0
+          -99.129583,19.469499,0
+          -99.130422,19.46969,0
+          -99.132099,19.470114,0
+          -99.132872,19.470302,0
+          -99.133834,19.470556,0
+          -99.134699,19.470758,0
+          -99.135666,19.471002,0
+          -99.137003,19.471273,0
+          -99.138154,19.471504,0
+          -99.139213,19.471784,0
+          -99.140818,19.472134,0
+          -99.141263,19.472222,0
+          -99.141963,19.47238,0
+          -99.142883,19.472606,0
+          -99.144325,19.472943,0
+          -99.14552,19.473208,0
+          -99.145736,19.473348,0
+          -99.145912,19.473395,0
+          -99.14613,19.473399,0
+          -99.146254,19.473338,0
+          -99.146415,19.473259,0
+          -99.147205,19.473336,0
+          -99.148004,19.473376,0
+          -99.149058,19.473372,0
+          -99.149979,19.473282,0
+          -99.150882,19.473206,0
+          -99.151988,19.473265,0
+          -99.155538,19.473604,0
+          -99.158889,19.473788,0
+          -99.15923,19.473756,0
+          -99.160797,19.473319,0
+          -99.162681,19.472704,0
+          -99.165052,19.471921,0
+          -99.168609,19.47082,0
+          -99.170593,19.47021,0
+          -99.173117,19.469397,0
+          -99.175798,19.468586,0
+          -99.176,19.468564,0
+          -99.176074,19.468578,0
+          -99.176126,19.468588,0
+          -99.176368,19.468684,0
+          -99.176681,19.468976,0
+          -99.177936,19.470177,0
+          -99.178356,19.470592,0
+          -99.178626,19.470875,0
+          -99.17985,19.472337,0
+          -99.180414,19.47296,0
+          -99.1816,19.47432,0
+          -99.182896,19.475828,0
+          -99.183304,19.476323,0
+          -99.183768,19.47687,0
+          -99.184098,19.477264,0
+          -99.184446,19.47766,0
+          -99.184455,19.477729,0
+          -99.18439,19.477961,0
+          -99.184198,19.478614,0
+          -99.183931,19.47968,0
+          -99.183715,19.480484,0
+          -99.183475,19.481326,0
+          -99.183359,19.481765,0
+          -99.183137,19.482595,0
+          -99.183045,19.482944,0
+          -99.182895,19.483571,0
+          -99.182784,19.483969,0
+          -99.182831,19.484077,0
+          -99.183978,19.484297,0
+          -99.184802,19.484459,0
+          -99.185586,19.4846,0
+          -99.186594,19.484559,0
+          -99.188964,19.485088,0
+          -99.189115,19.485124,0
+          -99.189445,19.485561,0
+          -99.189771,19.485908,0
+          -99.190285,19.486353,0
+          -99.191469,19.487356,0
+          -99.192121,19.487905,0
+          -99.192598,19.488349,0
+          -99.193313,19.488949,0
+          -99.194061,19.48958,0
+          -99.194428,19.489882,0
+          -99.19488,19.490442,0
+          -99.195091,19.490693,0
+          -99.195312,19.490959,0
+          -99.1956,19.491294,0
+          -99.196072,19.491918,0
+          -99.196359,19.492328,0
+          -99.196977,19.49316,0
+          -99.19736,19.493654,0
+          -99.197522,19.493868,0
+          -99.197788,19.494286,0
+          -99.198242,19.495094,0
+          -99.198392,19.49536,0
+          -99.198522,19.495604,0
+          -99.198699,19.495878,0
+          -99.198832,19.496032,0
+          -99.198975,19.496204,0
+          -99.199127,19.496396,0
+          -99.199229,19.496532,0
+          -99.199497,19.496829,0
+          -99.199708,19.497071,0
+          -99.199889,19.497245,0
+          -99.200125,19.497477,0
+          -99.200373,19.4977,0
+          -99.200738,19.498048,0
+          -99.20111,19.498408,0
+          -99.201593,19.498878,0
+          -99.201999,19.499265,0
+          -99.202295,19.499536,0
+          -99.202804,19.500049,0
+          -99.203428,19.500729,0
+          -99.203879,19.501206,0
+          -99.204128,19.501518,0
+          -99.204473,19.501942,0
+          -99.204645,19.502213,0
+          -99.205089,19.502859,0
+          -99.205299,19.503155,0
+          -99.205915,19.50397,0
+          -99.206158,19.504306,0
+          -99.206419,19.504684,0
+          -99.2066,19.504879,0
+          -99.207055,19.505308,0
+          -99.207707,19.505894,0
+          -99.208072,19.506194,0
+          -99.208124,19.506298,0
+          -99.208151,19.506549,0
+          -99.208173,19.506808,0
+          -99.208217,19.507291,0
+          -99.208279,19.508083,0
+          -99.208292,19.508251,0
+          -99.208258,19.508336,0
+          -99.20819,19.508364,0
+          -99.208061,19.508372,0
+          -99.207491,19.508409,0
+          -99.206997,19.508455,0
+          -99.206195,19.50852,0
+          -99.205811,19.508585,0
+          -99.205513,19.508616,0
+          -99.205016,19.508737,0
+          -99.204558,19.508904,0
+          -99.203698,19.509333,0
+          -99.202745,19.509844,0
+          -99.202098,19.510181,0
+          -99.201541,19.510466,0
+          -99.200652,19.510811,0
+          -99.199968,19.511046,0
+          -99.199029,19.511257,0
+          -99.198492,19.511358,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CETRAM METRO EL ROSARIO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200142,19.505783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DE LAS CULTURAS</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198513,19.511215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MECANICOS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.199311,19.511573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PESCADORES</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202043,19.510618,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CULTURA NÁHUATL</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205134,19.509095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALFAREROS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208406,19.508543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AQUILES SERDAN</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208368,19.50664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDIFICIO. 26-B</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.206987,19.504447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HACIENDA DE SOTELO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205164,19.502212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VICTOR HERNANDEZ COVARRUBIAS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202442,19.499148,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAFAEL ALDUCIN</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.199302,19.495819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZEMPOALTECAS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.196529,19.491849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO AQUILES SERDÁN</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.195174,19.490128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTÉOTL</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.193354,19.488452,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SANTO DOMINGO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.191925,19.487239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REY MAXTLA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.190431,19.485946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDALGO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188685,19.481602,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MANUEL ACUÑA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188869,19.479379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AZCAPOTZALCO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.187606,19.478507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 DE FEBRERO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.185031,19.477782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NUBIA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182117,19.474348,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SALONICA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179288,19.471027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HELIOPOLIS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.176936,19.468687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CUITLAHUAC (GTA. CAMARONES)</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.175456,19.468392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PIÑA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.170129,19.47007,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLAN DE SAN LUIS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.166328,19.471258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>F.C. CENTRAL</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.163794,19.472067,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CEYLAN</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.161543,19.472759,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 8</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.158191,19.473509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRAL SUR</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.151195,19.472999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. VALLEJO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.146368,19.47302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AUER</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.142066,19.472162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REAL DEL MONTE</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.132225,19.469932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CONSTANTINO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.128671,19.469062,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. DE LOS MISTERIOS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.125351,19.468283,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. DE GUADALUPE</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.124158,19.467888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GRACIELA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.120717,19.46668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>F.C. HIDALGO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.118563,19.46593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 54-A</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.11575,19.464948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CONGRESO DE LA UNION</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.112588,19.463847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 66-A</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.109876,19.462891,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 72-A</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.107832,19.462171,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. ING. EDUARDO MOLINA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.105769,19.461465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 84</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.102719,19.460422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 92</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.099868,19.459394,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. 503</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.09699,19.457499,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CAIRO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.09647,19.454423,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PEKIN</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.09139,19.449773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FORMOSA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.088284,19.446825,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO OCEANIA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.087047,19.444888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TRANSVAAL</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.088058,19.442942,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PERSIA</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.089142,19.441152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DEL PEÑON</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.089964,19.439784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 37</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.091723,19.436626,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 33</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.092536,19.435159,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 25 I</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.094014,19.432528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 25 II</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.09461,19.43143,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 21</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.095201,19.43035,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 17</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.096001,19.42892,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 13</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.096827,19.427415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ORIENTE 180</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.094972,19.426335,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BLV. PUERTO AEREO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.093475,19.425588,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CLINICA 14 IMSS</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.094803,19.422909,2239.25
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLAZA AEROPUERTO</name>
+      <description><![CDATA[Línea G<br>Metro El Rosario-Metro Blvd. Puerto Aéreo]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.095961,19.420765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TERMINAL METRO BLVD. PUERTO AEREO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.095545,19.42084,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 13</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.09312,19.425239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 25</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.090612,19.429765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO TERMINAL AEREA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.088042,19.434086,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DEL PEÑON</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.086195,19.437177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MORELOS</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.085479,19.439859,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO OCEANIA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.086909,19.445641,2235.8
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 549</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.088526,19.447679,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. 535</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.091329,19.450261,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 525</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.093059,19.451875,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 509</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.096087,19.454573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. 506</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.096419,19.457971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3a. CDA. AV. 503</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.095321,19.460861,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DVO. FRANCISCO ZARCO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.095519,19.461203,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 92</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.099538,19.459432,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 84-A</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.102373,19.46043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. EDUARDO MOLINA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.104923,19.461339,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 72-A</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.107495,19.46226,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 70</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.108813,19.462725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 62-A (AV. CONGRESO DE LA UNION)</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.111521,19.463667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 58</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.114181,19.464599,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 48</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.117404,19.465724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GRACIELA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.120286,19.466727,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. DE GUADALUPE</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.123353,19.467801,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. DE LOS MISTERIOS</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.124778,19.46829,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BUEN TONO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.128222,19.469137,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REAL DEL MONTE</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.131685,19.469991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 1-G</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.141283,19.472208,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 7-A (CALZ. VALLEJO)</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.145067,19.473092,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 28</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.147158,19.473315,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CENTRAL SUR</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.150724,19.473207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALLE 12</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.154262,19.473448,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. JARDIN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.15867,19.473768,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CEYLAN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.161041,19.473234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CERDEÑA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.162882,19.472631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLAN DE SAN LUIS</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.165981,19.471618,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. NUECES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.169227,19.470609,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SORIANA CUITLAHUAC</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.171054,19.47005,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CALZ. CAMARONES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.175659,19.468607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SALONICA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.178064,19.470345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NORTE 87</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.179246,19.471675,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2a CDA. DE TULA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.182575,19.475494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 DE FEBRERO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.184248,19.477457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MINERVA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183469,19.481234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NUEVA JERUSALEN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183042,19.482814,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AHUACATITLA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.183857,19.484286,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZARAGOZA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.186361,19.484584,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ANDALUCIA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.188755,19.485055,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FFCC NACIONALES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.189472,19.485597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PRIV. DE AQUILES SERDAN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.191949,19.487784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 DE SEPTIEMBRE</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.194319,19.489802,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>METRO AQUILES SERDÁN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.195192,19.490893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. SAUCES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.196596,19.492661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. AHUEHUETES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198389,19.495392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA INDOMITA</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200631,19.497951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA COLORADA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.201711,19.498983,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA NUEVA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202929,19.500177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DEL ROSARIO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.204249,19.50169,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SORIANA EL ROSARIO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205199,19.503037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FRENTE A NISSAN</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.206493,19.504753,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RENACIMIENTO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.207869,19.506032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CULTURAS</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.208298,19.50804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RIO BLANCO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.205712,19.508549,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDROGENO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.202049,19.510163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CARBONO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.200574,19.510782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. CULTURA NORTE</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197549,19.511404,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AZTACALCO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197821,19.50883,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DEPOSITO EL ROSARIO</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198322,19.505678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AV. DE LOS ANGELES</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.197815,19.501859,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TIERRA NEGRA</name>
+      <description><![CDATA[Línea G<br>Metro Blvd. Puerto Aéreo-Metro El Rosario]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -99.198986,19.500552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
